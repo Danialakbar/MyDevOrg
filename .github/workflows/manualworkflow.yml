@@ -19,4 +19,4 @@ jobs:
         sfdx-auth-url: ${{ secrets.TEST_SANDBOX_AUTH }}
     
     - name: Deploy
-      run: sfdx force:source:deploy --manifest manifest/delta-package.xml
+      run: sfdx force:source:deploy --manifest manifest/package.xml

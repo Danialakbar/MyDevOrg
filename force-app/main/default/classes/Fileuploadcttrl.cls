@@ -1,8 +1,8 @@
 public class Fileuploadcttrl {
     @AuraEnabled(cacheable=false)
-    public static List<ContentDocumentLink> fetchFiles(String TestId){
+    public static List<ContentDocumentLink> fetchFiles(String RecordId){
         return [SELECT LinkedEntityId, ContentDocument.CreatedDate, ContentDocument.Title, ContentDocument.ContentSize, ContentDocument.FileType 
                     FROM ContentDocumentLink  
-                WHERE LinkedEntityId  =:TestId];
+                WHERE LinkedEntityId  =:RecordId];
     }
 }

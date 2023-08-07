@@ -1,0 +1,14 @@
+<template>
+		<section if:true={showModal} aria-describedby="modal-content-id-1" aria-labelledby="modal-heading-01" aria-modal="true" class="slds-modal slds-fade-in-open" role="dialog" tabindex="-1">
+			  <template if:true={showScreen3}>
+						<c-pop-up-screen1 onnext={handleScreen1Next}></c-pop-up-screen1>
+				</template>
+				<template if:true={showScreen2}>
+						<c-pop-up-screen2 onnext={handleScreen2Next} first-name={firstName} last-name={lastName}></c-pop-up-screen2>
+				</template>
+				<template if:true={showScreen1}>
+						<c-pop-up-screen3 onfinish={handleScreen3Finish}></c-pop-up-screen3>
+				</template> 
+		</section>
+		<div class="slds-backdrop slds-backdrop_open" if:true={showModal}></div>
+</template>

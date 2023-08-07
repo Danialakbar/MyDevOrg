@@ -1,0 +1,43 @@
+.container-default {
+    z-index: 2;
+    max-width: 1316px;
+    padding-left: 24px;
+    padding-right: 24px;
+    position: relative;
+    transform: translate(0);
+}
+
+.w-container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inner-container.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.display-2.color-neutral-100 {
+    color: #fff;
+}
+
+.display-2 {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.156em;
+}
+
+.mg-bottom-0 {
+    margin-bottom: 0;
+    font-size: 16px;
+}
+.color-neutral-300 {
+    color: #eceef2;
+}

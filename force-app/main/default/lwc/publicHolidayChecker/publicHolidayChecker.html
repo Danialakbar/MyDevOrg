@@ -1,0 +1,20 @@
+<template>
+    <div style="background-color:darkslategrey">
+        <lightning-input label="ID Number" type="text" value={idNumber} onchange={handleIdNumberChange} style="width:300px;margin-left:26%;margin-bottom:1%;color:white"></lightning-input>
+        
+        <lightning-button label="Search" variant="brand" onclick={searchForHolidays} disabled={isSearchDisabled} style="margin-left:26%"></lightning-button>
+        
+        <template if:true={error}>
+            <p class="error-message">{error}</p>
+        </template>
+        
+        <template if:true={holidays}>
+            <h3>Important Public Holidays</h3>
+            <ul>
+                <template for:each={holidays} for:item="holiday">
+                    <li key={holiday.id}>{holiday.name} - {holiday.date}</li>
+                </template>
+            </ul>
+        </template>
+    </div>
+</template>

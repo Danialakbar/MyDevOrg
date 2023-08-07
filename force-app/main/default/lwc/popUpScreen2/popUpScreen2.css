@@ -1,0 +1,154 @@
+.slds-modal__container {
+		max-width: 525px !important;
+		width: 525px !important;
+		max-height:451px;
+		height:451px;
+		border-radius: 4px;
+		padding: 24px;
+		background: #FFFFFF;
+		top:151px;
+}
+.frame-65frame{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		padding: 16px;
+		gap: 16px;
+		width: 477px;
+		height: 80px;
+		flex: none;
+		order: 0;
+		align-self: stretch;
+		flex-grow: 0;
+}
+.icon-user{
+		top:46px;
+		left:244.5px;
+		right:243.33px;
+		bottom:260.85px;
+}
+.update-your-profile{
+		width: 257px;
+		height: 27px;
+		font-family: 'Benton Sans';
+		font-style: normal;
+		font-weight: 550;
+		font-size: 20px;
+		line-height: 27px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		color: #000000;
+		flex: none;
+		order: 1;
+		flex-grow: 0;
+}
+.textfields{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 10px 0px;
+		gap: 5px;
+		width: 477px;
+		height: 83px;
+		flex: none;
+		order: 2;
+		flex-grow: 0;
+}
+.fieldlabel{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		padding: 0px;
+		gap: 10px;
+		width: 477px;
+		height: 18px;flex: none;
+		order: 0;
+		align-self: stretch;
+		flex-grow: 0;
+}
+.cls-label{
+		width: 76px;
+		height: 18px;
+		font-family: 'Benton Sans';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 11px;
+		line-height: 18px;
+		display: flex;
+		align-items: center;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		color: #858D9D;
+		flex: none;
+		order: 0;
+		flex-grow: 0;
+}
+.input-text{
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		align-items: center;
+		padding: 7px 10px 8px;
+		gap: 10px;
+		width: 477px;
+		height: 40px;border: 1px solid #858D9D;
+		border-radius: 2px;
+		flex: none;
+		order: 1;
+		align-self: stretch;
+		flex-grow: 0;
+		font-family: Benton Sans;
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 25px;
+		letter-spacing: 0px;
+		text-align: left;
+
+}
+.buttonpopup1 {
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		padding: 8px 16px;
+		gap: 16px;
+		width: 477px;
+		height: 66px;
+		flex: none;
+		order: 3;
+		align-self: stretch;
+		flex-grow: 0;
+}
+
+.buttons {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		padding: 20px;
+		gap: 10px;
+		width: 445px;
+		height: 50px;
+		background: #0089FF;
+		border-radius: 3px;
+		flex: none;
+		order: 0;
+		flex-grow: 1;
+}
+
+.button {
+		width: 40px;
+		height: 20px;
+		font-family: 'Benton Sans';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 20px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		color: #FFFFFF;
+		flex: none;
+		order: 0;
+		flex-grow: 0;
+}

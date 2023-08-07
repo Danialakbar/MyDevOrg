@@ -1,0 +1,102 @@
+.slds-modal__container {
+		max-width: 525px !important;
+		width: 525px !important;
+		max-height:344px;
+		height:344px;
+		border-radius: 4px;
+		padding: 24px;
+		background: #FFFFFF;
+		top:151px;
+}
+.frame-65frame{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		padding: 16px;
+		gap: 16px;
+		width: 477px;
+		height: 80px;
+		flex: none;
+		order: 0;
+		align-self: stretch;
+		flex-grow: 0;
+}
+.icon-user{
+		top:46px;
+		left:244.5px;
+		right:243.33px;
+		bottom:260.85px;
+}
+.update-your-profile{
+		width: 257px;
+		height: 27px;
+		font-family: 'Benton Sans';
+		font-style: normal;
+		font-weight: 550;
+		font-size: 20px;
+		line-height: 27px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		color: #000000;
+		flex: none;
+		order: 1;
+		flex-grow: 0;
+}
+.in-an-attempt-to-ena{
+		width: 477px;
+		height: 75px;font-family: 'Benton Sans';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 25px;
+		color: #000000;
+		flex: none;
+		order: 2;
+		flex-grow: 0;
+}
+.buttonpopup1 {
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		padding: 8px 16px;
+		gap: 16px;
+		width: 477px;
+		height: 66px;
+		flex: none;
+		order: 3;
+		align-self: stretch;
+		flex-grow: 0;
+}
+
+.buttons {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		padding: 20px;
+		gap: 10px;
+		width: 445px;
+		height: 50px;
+		background: #0089FF;
+		border-radius: 3px;
+		flex: none;
+		order: 0;
+		flex-grow: 1;
+}
+
+.button {
+		width: 105px;
+		height: 20px;
+		font-family: 'Benton Sans';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 20px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		color: #FFFFFF;
+		flex: none;
+		order: 0;
+		flex-grow: 0;
+}

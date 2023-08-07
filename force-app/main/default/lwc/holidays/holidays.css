@@ -1,0 +1,16 @@
+.heading {
+    background-color: aliceblue;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #12bed4;
+    border-radius: 5px;
+  }
+  
+  .description {
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+  
+  .result {
+    margin-top: 20px;
+  }

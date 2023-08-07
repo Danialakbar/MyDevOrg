@@ -1,0 +1,15 @@
+<template>
+    <div class="heading">
+      <h1><b>USER STORY 3</b></h1>
+      <div class="description">
+        <p><b>Enter your South Africa ID Number to check if there are any important public holidays on your date of birth.</b></p>
+      </div>
+      <lightning-input label="South African ID Number" onchange={handleInputChange}></lightning-input>
+      
+
+      <div if:false={isValid}>
+        <p style="color:red"><b>This is not a valid South African ID number.</b></p>
+      </div>
+      <lightning-button  variant="brand" label="Search" title="Search" onclick={searchHoliday} disabled={isButtonDisabled}></lightning-button>
+    </div>
+  </template>

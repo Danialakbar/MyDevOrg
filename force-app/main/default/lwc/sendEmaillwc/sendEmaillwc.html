@@ -1,0 +1,14 @@
+<template>
+    <lightning-quick-action-panel header="Email Consent Forms">
+    <div class="slds-form-element">
+        <label class="slds-form-element__label" for="text-input-id-47">
+          <abbr class="slds-required" title="required">* </abbr>Input Label {recordId}</label>
+        <div class="slds-form-element__control">
+          <input type="email" id="text-input-id-47" value={emailofcontact} placeholder="Placeholder text…" required="required" class="slds-input" />
+        </div>
+      </div>
+      <div slot="footer">
+        <lightning-button variant="brand" class="slds-m-left_x-small" label="Save" type="submit" onclick={handleSubmit} disabled={disabled}></lightning-button>
+    </div>
+    </lightning-quick-action-panel>
+</template>

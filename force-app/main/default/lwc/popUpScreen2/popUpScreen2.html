@@ -1,0 +1,34 @@
+<!-- popUpScreen1.html -->
+<template>
+		<div class="slds-modal__container">
+				<div class="frame-65frame">
+						<img
+								 class="icon-user"
+								 src="https://anima-uploads.s3.amazonaws.com/projects/641eefc1a92e64d58f54956b/releases/641ef063824a64db0efb2358/img/icon-user.svg"
+								 alt="icon-user"
+								 />
+				</div>
+				<div class="update-your-profile">UPDATE YOUR PROFILE</div>
+				<div class="textfields">
+						<div class="fieldlabel">
+								<div class="cls-label">
+										FIRST NAME
+								</div>
+						</div>
+						<input type="text" class="input-text" style="height:50px" value={firstName} onchange={handleFirstNameChange} />
+				</div>
+				<div class="textfields">
+						<div class="fieldlabel">
+								<div class="cls-label">
+										LAST NAME
+								</div>
+						</div>
+						<input type="text" class="input-text" style="height:50px" value={lastName} onchange={handleLastNameChange} />
+				</div>
+				<div class="buttonpopup1">
+						<div class="buttons" onclick={handleNextClick}>
+								<div class="button">SAVE</div>
+						</div>
+				</div>
+		</div>
+</template>
